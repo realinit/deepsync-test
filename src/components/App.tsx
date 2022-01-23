@@ -1,5 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.scss';
+
 import Header from './Header'
 import FeaturedContent from './FeaturedContent'
 
