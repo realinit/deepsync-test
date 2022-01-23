@@ -14,7 +14,7 @@ body {
     padding: 30px 120px;
     height: 84px;
     @media screen and (max-width:568px) {
-      padding: 0;
+      padding: 20px 10px;
     }
     color: #FFFFFF;
     .container{
@@ -46,6 +46,11 @@ body {
     .navbar-collapse{
       &.justify-content{
         justify-content: center;
+        
+      }
+      &.show{
+        background: #5859F4;
+        
       }
       .navbar-nav{
         .nav-link{

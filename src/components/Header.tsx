@@ -16,6 +16,9 @@ export default function Header() {
                 <img alt="" src="https://deepsync.co/images/logos/logo_light.png" />
                 deepsync
             </Navbar.Brand>
+            <Nav>
+                <Nav.Link className="login__btn" href="#login">Login</Nav.Link>
+            </Nav>
             <Navbar.Collapse className="justify-content">
                 <Nav>
                     <Nav.Link href="#home">Home</Nav.Link>
@@ -24,9 +27,7 @@ export default function Header() {
                     <Nav.Link href="#about">About</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
-            <Nav>
-                <Nav.Link className="login__btn" href="#login">Login</Nav.Link>
-            </Nav>
+
         </Navbar>
     )
 }
