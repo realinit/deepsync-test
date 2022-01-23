@@ -88,7 +88,7 @@ body {
       min-width: 100px;
       &.nav-link{
         color: #5859F4 !important;
-        font-family: Roboto,sans-serif;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -170,7 +170,7 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 12px 24px;
+        padding: 0.6rem 1.6rem;
         background: #FFFFFF;
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 8px;
