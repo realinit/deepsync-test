@@ -159,9 +159,10 @@ body {
       letter-spacing: -0.01em;
       color: #FFFFFF;
       margin-bottom: 10px;
+      padding: 0 8rem;
       @media screen and (max-width:568px) {
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 0.9rem;
+        padding:unset
       }
     }
     .gettingStarted__action{
