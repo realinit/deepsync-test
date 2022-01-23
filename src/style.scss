@@ -104,13 +104,10 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 120px;
-    padding-left: 320px;
-    padding-right: 320px;
+    padding: 132px 320px;
     flex-direction: column;
     overflow: hidden;
     align-items: center;
-    padding-bottom: 2rem;
     @media screen and (max-width:568px) {
       padding-left: 4rem;
       padding-right: 4rem;
